@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
+import plotly.express as px  # Requires Plotly installation
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import time
+
 
 st.set_page_config(
     page_title="DataFlow Analytics",
